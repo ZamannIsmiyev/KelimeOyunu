@@ -76,7 +76,7 @@ namespace WindowsFormsApplication66666666666
                 }
                 kombinasyon++;
             }
-            //Bu kısımda textbox'a girilen harfleri kendi arasında tamamıyla karıştırıyor.
+            //Bu kısımda textbox'a girlen harfleri kendi arasında tamamıyla karıştırıyor.
             int counter = 1;
             foreach (var p in Permutate(textBox1.Text))
             {
